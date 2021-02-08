@@ -10,7 +10,7 @@ link-citations: yes
 description: "This book is the documentation for APSIM Classic Wheat model."
 ---
 
-# Introduction
+# Preface {-}
 
 This documentation is compiled from the source codes and internal
 documents of APSIM-Wheat module (classic) by Bangyou Zheng (bangyou.zheng@csiro.au),
