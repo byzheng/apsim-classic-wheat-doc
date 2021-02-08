@@ -1,5 +1,5 @@
 --- 
-title: "APSIM Wheat Documentation (Classic)"
+title: "APSIM Classic Wheat Documentation"
 author: "Bangyou Zheng"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -7,7 +7,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This book is the documentation for APSIM Wheat model (Classic)."
+description: "This book is the documentation for APSIM Classic Wheat model."
 ---
 
 

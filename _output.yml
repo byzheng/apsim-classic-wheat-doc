@@ -5,6 +5,6 @@ bookdown::gitbook:
       before: |
         <li><a href="./">APSIM Wheat Doc</a></li>
       after: |
-        <li><a href="https://github.com/byzheng/apsim-wheat-doc-classic" target="blank">Github</a></li>
-    edit: https://github.com/byzheng/apsim-wheat-doc-classic/edit/master/%s    
+        <li><a href="https://github.com/byzheng/apsim-classic-wheat-doc" target="blank">Github</a></li>
+    edit: https://github.com/byzheng/apsim-classic-wheat-doc/edit/master/%s    
     
