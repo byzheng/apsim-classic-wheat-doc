@@ -7,4 +7,3 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/byzheng/apsim-classic-wheat-doc" target="blank">Github</a></li>
     edit: https://github.com/byzheng/apsim-classic-wheat-doc/edit/master/%s    
-    

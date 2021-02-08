@@ -4,12 +4,17 @@ author: "Bangyou Zheng"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: book.bib
 biblio-style: apalike
 link-citations: yes
 description: "This book is the documentation for APSIM Classic Wheat model."
 ---
 
+# Introduction
 
-# Prerequisites
+This documentation is compiled from the source codes and internal
+documents of APSIM-Wheat module (classic) by Bangyou Zheng (bangyou.zheng@csiro.au),
+Karine Chenu (karine.chenu@uq.edu.au), Alastair Doherty (alastair.doherty@daff.qld.gov.au)
+and Scott Chapman (scott.chapman@csiro.au).
+
 

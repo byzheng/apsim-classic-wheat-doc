@@ -1,0 +1,16 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# APSIM-Wheat history {#history}
+
+APSIM-Wheat has been developed from a combination of the approaches
+used in previous APSIM wheat modules: 
+@assengPerformanceAPSIMwheatModel1998; @assengUseAPSIMWheat1998; @keatingOverviewAPSIMModel2003; @meinkeImprovingWheatSimulation1997; @meinkeImprovingWheatSimulation1998.
+The current version of the model is implemented within the APSIM Plant
+model framework which is currently used for other crops such as grain
+legumes and canola. Most of the model constants (species-specific)
+and parameters (cultivar specific) are externalized from the code
+(wheat.xml file). 

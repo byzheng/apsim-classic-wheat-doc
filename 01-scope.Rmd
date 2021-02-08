@@ -1,0 +1,31 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Scope of the APSIM-Wheat module {#scope}
+
+The APSIM-Wheat module simulates the wheat growth and development of a
+wheat crop in a daily time-step on an area basis (per square meter, not
+per single plant). In this module, the wheat crop Wheat growth and
+development responds to weather (radiation, temperature), soil water and
+soil nitrogen, and management practices. The wheat module returns
+information on its soil water and nitrogen uptake to the soil water and
+nitrogen modules on a daily basis for reset of these systems.
+Information on crop cover is also provided to the water balance module
+for calculation of evaporation rates and runoff. Wheat stover and root
+residues are 'passed' from wheat to the surface residue and soil
+nitrogen modules, respectively at the harvest of the wheat crop.
+
+The approaches used in modeling crop processes balance the need for a
+comprehensive description of the observed variation in crop performance
+over diverse production environments and the need to avoid reductionist
+approaches of ever-greater complexity with large numbers of parameters
+that are difficult to measure.
+
+A list of the module outputs is provided in the **Wheat module output**
+s section below. Basically the module simulates phenological
+development, leaf area growth expansion, biomass and N concentration of
+different crop components (**Leaf**, **Stem**, **Root** and **Grain**)
+on a daily basis. It also predicts grain size and grain number.
