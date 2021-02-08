@@ -1,0 +1,10 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">APSIM Wheat Doc</a></li>
+      after: |
+        <li><a href="https://github.com/byzheng/apsim-wheat-doc-classic" target="blank">Github</a></li>
+    edit: https://github.com/byzheng/apsim-wheat-doc-classic/edit/master/%s    
+    
