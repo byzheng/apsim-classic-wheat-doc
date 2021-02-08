@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>APSIM Classic Wheat Documentation</title>
+  <title>2 Scope of the APSIM-Wheat module | APSIM Classic Wheat Documentation</title>
   <meta name="description" content="This book is the documentation for APSIM Classic Wheat model." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="APSIM Classic Wheat Documentation" />
+  <meta property="og:title" content="2 Scope of the APSIM-Wheat module | APSIM Classic Wheat Documentation" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="APSIM Classic Wheat Documentation" />
+  <meta name="twitter:title" content="2 Scope of the APSIM-Wheat module | APSIM Classic Wheat Documentation" />
   
   <meta name="twitter:description" content="This book is the documentation for APSIM Classic Wheat model." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="scope.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="history.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -94,17 +94,29 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">APSIM Classic Wheat Documentation</h1>
-<p class="author"><em>Bangyou Zheng</em></p>
-<p class="date"><em>2021-02-08</em></p>
-</div>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">1</span> Introduction</h1>
-<p>This documentation is compiled from the source codes and internal
-documents of APSIM-Wheat module (classic) by Bangyou Zheng (<a href="mailto:bangyou.zheng@csiro.au" class="email">bangyou.zheng@csiro.au</a>),
-Karine Chenu (<a href="mailto:karine.chenu@uq.edu.au" class="email">karine.chenu@uq.edu.au</a>), Alastair Doherty (<a href="mailto:alastair.doherty@daff.qld.gov.au" class="email">alastair.doherty@daff.qld.gov.au</a>)
-and Scott Chapman (<a href="mailto:scott.chapman@csiro.au" class="email">scott.chapman@csiro.au</a>).</p>
+<div id="scope" class="section level1">
+<h1><span class="header-section-number">2</span> Scope of the APSIM-Wheat module</h1>
+<p>The APSIM-Wheat module simulates the wheat growth and development of a
+wheat crop in a daily time-step on an area basis (per square meter, not
+per single plant). In this module, the wheat crop Wheat growth and
+development responds to weather (radiation, temperature), soil water and
+soil nitrogen, and management practices. The wheat module returns
+information on its soil water and nitrogen uptake to the soil water and
+nitrogen modules on a daily basis for reset of these systems.
+Information on crop cover is also provided to the water balance module
+for calculation of evaporation rates and runoff. Wheat stover and root
+residues are ‘passed’ from wheat to the surface residue and soil
+nitrogen modules, respectively at the harvest of the wheat crop.</p>
+<p>The approaches used in modeling crop processes balance the need for a
+comprehensive description of the observed variation in crop performance
+over diverse production environments and the need to avoid reductionist
+approaches of ever-greater complexity with large numbers of parameters
+that are difficult to measure.</p>
+<p>A list of the module outputs is provided in the <strong>Wheat module output</strong>
+s section below. Basically the module simulates phenological
+development, leaf area growth expansion, biomass and N concentration of
+different crop components (<strong>Leaf</strong>, <strong>Stem</strong>, <strong>Root</strong> and <strong>Grain</strong>)
+on a daily basis. It also predicts grain size and grain number.</p>
 
 </div>
             </section>
@@ -112,8 +124,8 @@ and Scott Chapman (<a href="mailto:scott.chapman@csiro.au" class="email">scott.c
           </div>
         </div>
       </div>
-
-<a href="scope.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="history.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -144,7 +156,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/byzheng/apsim-classic-wheat-doc/edit/master/index.Rmd",
+"link": "https://github.com/byzheng/apsim-classic-wheat-doc/edit/master/01-scope.Rmd",
 "text": "Edit"
 },
 "history": {
